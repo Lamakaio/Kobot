@@ -1,14 +1,3 @@
-//! Example demonstrating how to make use of individual track audio events,
-//! and how to use the `TrackQueue` system.
-//!
-//! Requires the "cache", "standard_framework", and "voice" features be enabled in your
-//! Cargo.toml, like so:
-//!
-//! ```toml
-//! [dependencies.serenity]
-//! git = "https://github.com/serenity-rs/serenity.git"
-//! features = ["cache", "framework", "standard_framework", "voice"]
-//! ```
 
 use rand::seq::SliceRandom;
 use rand::thread_rng;
